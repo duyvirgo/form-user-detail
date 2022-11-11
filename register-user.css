@@ -18,7 +18,7 @@ h2 {
 
 form {
     margin-bottom: 25px;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .form-group {
@@ -96,9 +96,22 @@ label span {
 }
 
 .my-table th {
-    border: 2px solid rgb(82, 76, 76);
+    border: 1px solid rgb(82, 76, 76);
     text-align: center;
     background-color: #ccc;
+}
+
+.my-table tr {
+    border-top: 2px solid rgb(170, 151, 151);
+    border-left: 2px solid rgb(170, 151, 151);
+    border-right: 2px solid rgb(170, 151, 151);
+}
+#table-info > div > table > tbody > tr.row-3{
+    border-bottom: 2.5px solid rgb(170, 151, 151);
+}
+
+.my-table tr td ,.my-table tr th{
+    border: 1px solid rgb(126, 120, 120);
 }
 
 .my-table td,
@@ -147,6 +160,10 @@ th {
         overflow-x: auto;
         width: 100%;
     }
+
+    form {
+        margin-bottom: 45px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -157,6 +174,7 @@ th {
 
     form {
         margin: 0;
+        margin-bottom: 45px;
     }
 }
 
@@ -170,7 +188,7 @@ th {
 
 @media screen and (min-width: 601px) and (max-width: 815px) {
     body>div>form>div:nth-child(6) {
-        margin-bottom: -19px;
+        margin-bottom: -19px !important;
     }
 }
 
