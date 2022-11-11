@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     font-size: 1rem;
-    font-family: 'Open Sans', 'Courier New', Courier, monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', monospace, sans-serif;
 }
 
 h2 {
@@ -77,9 +79,9 @@ label span {
 }
 
 .btn-submit:hover {
-    background-color:rgb(16, 156, 3);
+    background-color: rgb(16, 156, 3);
     border: none;
-    
+
 }
 
 
@@ -104,6 +106,10 @@ th {
     border: 2px solid rgb(82, 76, 76);
     text-align: center;
     padding: 10px 5px;
+}
+
+#table-info {
+    margin-bottom: 26px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -148,8 +154,9 @@ th {
     .div-wrapper {
         min-width: 90%;
     }
+
     form {
-        margin:0;
+        margin: 0;
     }
 }
 
